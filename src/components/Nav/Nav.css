@@ -20,10 +20,16 @@
     padding: 0 1rem;
 }
 
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
 #title {
     margin-left: 10px;
-    align-self: flex-start;
+    align-self: center;
     justify-self: flex-start;
+    color: var(--color-white);
 }
 
 .header .nav-menu a {
@@ -43,18 +49,20 @@
 .header .nav-item {
     padding: 1rem;
     font-weight: 500;
+    
 }
 
 /* adding an active scrolelr bar */
 .nav-item .active {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--color-primary-varient); 
+    border-bottom: 3px solid var(--color-primary); 
 }
 
 .header .nav-item a:hover {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--color-primary-varient);
+    border-bottom: 3px solid var(--color-primary);
     cursor: pointer;
+    color: var(--color-primary);
 }
 
 .hamburger {

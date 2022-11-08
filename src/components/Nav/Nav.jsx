@@ -17,8 +17,9 @@ const Nav = () => {
         {/* Logo */}
         <a href='/' className='logo'>
           <img src={logo} alt='logo' />
+          <h1 id='title'>FIAB</h1>
         </a>
-        <h1 id='title'>FIAB</h1>
+        
         {/* Hamburger function */}
         <div className='hamburger' onClick={handleClick}>
           {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
@@ -26,7 +27,7 @@ const Nav = () => {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'>
-            <Link to="Showcase" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Home</Link>
+            <Link to="Showcase" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>home</Link>
           </li>
           <li className='nav-item'>
             <Link to="Players" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>players</Link>
