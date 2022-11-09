@@ -1,6 +1,6 @@
 import React from 'react'
 import './Showcase.css'
-import Rex from '../../assets/Rex.png'
+
 const Showcase = () => {
   return (
     <div className='showcase grid'>
