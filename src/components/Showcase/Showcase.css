@@ -1,6 +1,59 @@
 .showcase {
     position: inherit;
     width: 100%;
-    height: 500px;
+    height: 700px;
     margin: auto;
+    margin-top: 90px;
+    background-image: url(../../assets/Rex.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: 0% -125%;
+    filter: sepia(50%);
+    color: var(--color-bg-secondary);
 }
+
+#showcase-title {
+    font-size: 400px;
+    grid-column: 2 / 10;
+    grid-row: auto;
+    font-weight: 700;
+    line-height: 0.7;
+} 
+
+#showcase-subtitle { 
+    font-size: 50px;
+    grid-area: 2 / 7 / 6 / 11;    
+    line-height: 0.1;
+} 
+
+
+@media screen and (max-width: 1331px) {
+    #showcase-subtitle { 
+        font-size: 50px;
+        grid-area: 2 / 2 / 6 / 11;    
+        line-height: 1;
+        text-align: center;
+        justify-self: center;
+    } 
+
+    #showcase-title {
+        font-size: 130px;
+        grid-column: 2 / 10;
+        grid-row: auto;
+        font-weight: 700;
+        line-height: 0.7;
+        text-align: center;
+        justify-self: center;
+    } 
+    .showcase {
+    background-size: 400px;
+    background-position: 300% 257%;
+    filter: sepia(50%);
+    color: var(--color-bg-secondary);
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    }
+}
+    
+

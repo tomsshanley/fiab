@@ -12,8 +12,8 @@ const Nav = () => {
   const closeMenu = () => setClick(false)
 
   return (
-    <div className='header'>
-      <nav className="navbar">
+    <div className='header '>
+      <nav className="navbar grid">
         {/* Logo */}
         <a href='/' className='logo'>
           <img src={logo} alt='logo' />

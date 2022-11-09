@@ -10,9 +10,16 @@
     text-decoration: none;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
 :root {
-    --color-bg: #1f1f38;
+    --color-bg: #06283D;
     --color-bg-varient: #2c2c6c;
+    --color-bg-secondary: #DFF6FF;
     --color-primary: #4db5ff;
     --color-primary-varient: rgba(77,181,255,0.4);
     --color-white: #fff;
@@ -42,8 +49,9 @@ body {
     font-family: 'Exo 2', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
-    line-height: 1.7;
+    
     /* background-image: url(../src/assets/Rex.png); */
+    
 }
 
 /* GENERAL STYLES */
@@ -104,11 +112,6 @@ a:hover {
     color: var(--color-bg);
 }
 
-img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}
 
 /* --------------------Media queiers----------------------- */
 /* Medium Devices (tablets) */

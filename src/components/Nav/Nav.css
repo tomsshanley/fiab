@@ -4,14 +4,14 @@
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 3;
     transition: .3s ease-in;
     overflow: hidden;
     background-color:var(--color-bg);
 }
 
 .header .navbar {
-    display: flex;
+    
     justify-content: space-between;
     align-items: center;
     max-width: 1240px;
@@ -22,14 +22,14 @@
 
 .logo {
     display: flex;
-    justify-content: flex-start;
+    grid-area: 0 / 2 / 1 / 3;
 }
 
 #title {
     margin-left: 10px;
-    align-self: center;
-    justify-self: flex-start;
     color: var(--color-white);
+    align-self: center;
+    display: none;
 }
 
 .header .nav-menu a {
@@ -44,6 +44,7 @@
 
 .header .nav-menu {
     display: flex;
+    grid-area: 1 / 7 / 1 /12;
 }
 
 .header .nav-item {
@@ -83,6 +84,7 @@
 
     .hamburger {
         display: block;
+        grid-area: 1 / 12 / 1 /12;
     }
 
     .nav-menu {

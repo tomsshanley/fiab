@@ -1,0 +1,9 @@
+#players {
+    height: 400px;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-bg);
+}
+
+#players-title {
+    font-size: 200px;
+}
