@@ -7,7 +7,7 @@
     z-index: 3;
     transition: .3s ease-in;
     overflow: hidden;
-    background-color:var(--color-bg);
+    background-color:#256D85;
 }
 
 .header .navbar {
@@ -44,7 +44,7 @@
 
 .header .nav-menu {
     display: flex;
-    grid-area: 1 / 7 / 1 /12;
+    grid-column-end: 13;
 }
 
 .header .nav-item {

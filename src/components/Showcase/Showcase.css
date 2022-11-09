@@ -7,7 +7,7 @@
     background-image: url(../../assets/Rex.png);
     background-repeat: no-repeat;
     background-size: 1000px;
-    background-position: 0% -125%;
+    background-position: -25% 1250%;
     filter: sepia(50%);
     color: var(--color-bg-secondary);
 }
@@ -22,15 +22,15 @@
 
 #showcase-subtitle { 
     font-size: 50px;
-    grid-area: 2 / 7 / 6 / 11;    
-    line-height: 0.1;
+    grid-area: 3 / 7 / 6 / 13;    
+    line-height: 1;
 } 
 
 
-@media screen and (max-width: 1331px) {
+@media screen and (max-width: 940px) {
     #showcase-subtitle { 
-        font-size: 50px;
-        grid-area: 2 / 2 / 6 / 11;    
+        font-size: 20px;
+        grid-area: 3 / 6 / 6 / 13;    
         line-height: 1;
         text-align: center;
         justify-self: center;
@@ -46,13 +46,13 @@
         justify-self: center;
     } 
     .showcase {
-    background-size: 400px;
-    background-position: 300% 257%;
+    background-size: 500px;
+    background-position: 50% -150%;
     filter: sepia(50%);
     color: var(--color-bg-secondary);
     display: flex;
     justify-content: space-between;
-    height: 400px;
+    height: 300px;
     }
 }
     
