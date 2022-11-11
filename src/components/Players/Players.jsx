@@ -1,6 +1,6 @@
 import React from 'react'
 import './Players.css'
-import profile1 from '../../assets/rj.png'
+// import profile1 from '../../assets/rj.png'
 import { FaUserAlt } from 'react-icons/fa'
 
 
