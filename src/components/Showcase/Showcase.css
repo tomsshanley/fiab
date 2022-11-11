@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: 1000px;
     background-position: -25% 1250%;
-    filter: sepia(50%);
+    filter: sepia(50%); 
     color: var(--color-bg-secondary);
 }
 
@@ -22,7 +22,7 @@
 
 #showcase-subtitle { 
     font-size: 50px;
-    grid-area: 3 / 7 / 6 / 13;    
+    grid-area: 2 / 7 / 6 / 13;    
     line-height: 1;
 } 
 

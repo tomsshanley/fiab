@@ -1,7 +1,8 @@
 #players {
     height: 100%;
-    background-color: var(--color-bg-secondary);
+    background-color: var(--color-bg-third);
     color: var(--color-bg);
+
 }
 
 .player-profiles {
@@ -9,8 +10,10 @@
     justify-content: space-between;
     align-items: center;
     z-index: 2;
-
+    margin:auto;
     padding-bottom: 40px;
+    max-width: 1240px;
+    
 }
 #profile1, #profile2, #profile3 {
     display: flex;
@@ -25,6 +28,7 @@
     z-index: 1;
     font-weight: 700;
     font-stretch: extra-expanded;
+    margin:auto;
 }
 .profile-image {
     border-radius: 50%;
