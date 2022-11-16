@@ -21,7 +21,7 @@ const Players = () => {
           <strong>Dominant Hand:</strong> Right <br />
           <strong>Strengths:</strong> Facebook friends with Ben Ratcliffe (WR271)<br/>
           Champion Player of Wednesday 2022 Spring Internal Comp Division 7. <br />
-          <strong>Weaknesses: </strong>Recepetionists
+          <strong>Weaknesses: </strong>
         </p>
       </div>
       <div id="profile2">
@@ -30,10 +30,15 @@ const Players = () => {
         </div>
         <h3 className='profile-name'>Thomas Shanley</h3>
         <p className='profile-text'>
-        <strong>IPR Rank: </strong>0.34<br/> 
+        <div className="profile-dotpoints">
+        <strong>IPR Rank: </strong><span className='profile-value'>0.34</span><br/> 
         <strong>Dominant Hand:</strong> Left<br />
         <strong>Strengths: </strong> <br />
         <strong>Weaknesses: </strong>Law enforcement
+        </div>
+        <div className="profile-bio">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error delectus, autem placeat, vel ullam non tempora itaque cumque commodi, voluptatum dignissimos ipsam explicabo dolorum quisquam. Sint ipsam labore nemo?</p>
+        </div>
         </p>
       </div>
       <div id="profile3">
@@ -44,8 +49,8 @@ const Players = () => {
         <p className='profile-text'>
         <strong>IPR Rank: </strong>0.31<br/> 
         <strong>Dominant Hand:</strong> Right <br />
-        <strong>Strengths: </strong>Determination, nice car, Calton Draught trivia questions <br />
-        <strong>Weaknesses: </strong>Large Zinger boxes
+        <strong>Strengths: </strong> <br />
+        <strong>Weaknesses: </strong>
         </p>
       </div>
       </div>
