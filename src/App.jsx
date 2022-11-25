@@ -5,6 +5,7 @@ import Players from './components/Players/Players';
 import Showcase from './components/Showcase/Showcase';
 import Ladder from './components/Ladder/Ladder';
 import Fixture from './components/Fixture/Fixture';
+import News from './components/News/News';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Nav />
         <Showcase/>
         <Players/>
+        <News/>
         <Fixture/>
         <Ladder/>
         <Contact/>
