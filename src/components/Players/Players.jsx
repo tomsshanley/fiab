@@ -1,7 +1,7 @@
 import React from 'react'
 import './Players.css'
 import profile1 from '../../assets/adin3.jpg'
-import profile2 from '../../assets/logo.png'
+import profile2 from '../../assets/tom.jpg'
 import profile3 from '../../assets/logo.png'
 import { FaUserAlt } from 'react-icons/fa'
 
@@ -17,11 +17,11 @@ const Players = () => {
         </div>
         <h3 className='profile-name'>Adin Baxter</h3>
         <p className='profile-text'>
-          <strong>IPR Rank: </strong>1.02<br/> 
+          <strong>IPR Rank: </strong>1.22<br/> 
           <strong>Dominant Hand:</strong> Right <br />
           <strong>Strengths:</strong> Facebook friends with Ben Ratcliffe (WR271)<br/>
           Champion Player of Wednesday 2022 Spring Internal Comp Division 7. <br />
-          <strong>Weaknesses: </strong>
+          <strong>Weaknesses: </strong>Female Receptionists
         </p>
       </div>
       <div id="profile2">
@@ -31,13 +31,13 @@ const Players = () => {
         <h3 className='profile-name'>Thomas Shanley</h3>
         <p className='profile-text'>
         <div className="profile-dotpoints">
-        <strong>IPR Rank: </strong><span className='profile-value'>0.34</span><br/> 
+        <strong>IPR Rank: </strong><span className='profile-value'>0.57</span><br/> 
         <strong>Dominant Hand:</strong> Left<br />
-        <strong>Strengths: </strong> <br />
-        <strong>Weaknesses: </strong>Law enforcement
+        <strong>Strengths: </strong>High mobilty, and he got a new racquet for christmas<br />
+        <strong>Weaknesses: </strong>Law enforcement and trivia questions
         </div>
         <div className="profile-bio">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error delectus, autem placeat, vel ullam non tempora itaque cumque commodi, voluptatum dignissimos ipsam explicabo dolorum quisquam. Sint ipsam labore nemo?</p>
+          <p></p>
         </div>
         </p>
       </div>
@@ -47,10 +47,10 @@ const Players = () => {
         </div>
         <h3 className='profile-name'>Ronan Johnson</h3>
         <p className='profile-text'>
-        <strong>IPR Rank: </strong>0.31<br/> 
+        <strong>IPR Rank: </strong>0.7<br/> 
         <strong>Dominant Hand:</strong> Right <br />
-        <strong>Strengths: </strong> <br />
-        <strong>Weaknesses: </strong>
+        <strong>Strengths: </strong>Sponsored by Marwan El Shorbagy <br />
+        <strong>Weaknesses: </strong>Thought he was Sponsored by Mohamed El Shorbagy
         </p>
       </div>
       </div>

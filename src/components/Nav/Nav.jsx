@@ -33,7 +33,7 @@ const Nav = () => {
             <Link to="players" spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>players</Link>
           </li>
           <li className='nav-item'>
-            <Link to="news" spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>news</Link>
+            <Link to="news" spy={true} smooth={true} offset={-50} duration={500} onClick={closeMenu}>news</Link>
           </li>
           <li className='nav-item'>
             <Link to="fixture" spy={true} smooth={true} offset={-95} duration={500} onClick={closeMenu}>fixture</Link>
