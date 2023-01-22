@@ -69,10 +69,10 @@
 }#profile-pic2 {
     display: inline;
 	margin: 0 auto;
-	height: 100%;
-	width: auto;
-	margin-left: 0;
-	margin-top: 0;
+	height: auto;
+	width: 160%;
+	margin-left: -30%;
+	margin-top: -35%;
 	background-color: var(--color-bg-third);
 }#profile-pic3 {
 	display: inline;
