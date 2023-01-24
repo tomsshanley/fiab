@@ -29,7 +29,7 @@
     margin-left: 10px;
     color: var(--color-white);
     align-self: center;
-    display: none;
+    /* display: none; */
 }
 
 .header .nav-menu a {
