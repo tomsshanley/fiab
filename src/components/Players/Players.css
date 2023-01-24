@@ -8,18 +8,18 @@
 .player-profiles {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     z-index: 2;
     margin:auto;
     padding-bottom: 40px;
-    max-width: 1240px;
-    
+    max-width: 1000px;
 }
 #profile1, #profile2, #profile3 {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 0px 20px;
+    width: 100%
 }
 
 #players-title {
@@ -29,12 +29,13 @@
     font-weight: 700;
     font-stretch: extra-expanded;
     margin:auto;
+
 }
 .profile-image {
     border-radius: 50%;
     object-fit: cover;
     border: solid 6px var(--color-bg);
-    size: 40px;
+    size: 1px;
     background-color: var(--color-bg-secondary);
     align-self: center;
     margin-bottom: 10px;
@@ -44,6 +45,48 @@
     font-weight: 400;
     font-size: 21px;
     margin-bottom: 5px;
+}
+
+.image-cropper {
+    width: 188px;
+    height: 188px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    border: solid 6px;
+	background-color: var(--color-bg-third);
+
+}
+
+#profile-pic1 {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 120%;
+    margin-left: -12%;
+    margin-top: -24%;
+}#profile-pic2 {
+    display: inline;
+	margin: 0 auto;
+	height: auto;
+	width: 160%;
+	margin-left: -30%;
+	margin-top: -35%;
+	background-color: var(--color-bg-third);
+}#profile-pic3 {
+	display: inline;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+	margin-left: 0;
+	margin-top: 0;
+	background-color: var(--color-bg-third);
+}
+
+.profile-name {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 940px) {

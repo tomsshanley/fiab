@@ -1,0 +1,23 @@
+.news-title {
+    font-size: 200px;
+    line-height: 0.57;
+    z-index: 1;
+    font-weight: 700;
+    font-stretch: extra-expanded;
+    margin:auto;
+    text-transform: uppercase;
+    color: var(--color-bg-third);
+}
+
+.article-style {
+    text-align: center;
+    max-width: 90%;
+    margin: 1px auto 15px auto
+}
+@media screen and (max-width: 940px) {
+    .news-title{
+        font-size: 5em;
+    }
+  
+
+}
