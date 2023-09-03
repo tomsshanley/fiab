@@ -93,6 +93,9 @@
     #players-title {
         font-size: 5em;
     }
+p {
+	padding: 2em
+}
     #players {
         height: 100%;
     }
