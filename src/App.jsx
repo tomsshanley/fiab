@@ -9,16 +9,8 @@ import News from './components/News/News';
 
 const App = () => {
   return (
-    <!-- <div>
-        <Nav />
-        <Showcase/>
-        <Players/>
-        <News/>
-        <Fixture/>
-        <Ladder/>
-        <Contact/>
-    </div> -->
     <div>
+      
     <h1>Our Response</h1>
       <p>Subject: Re: Accusations of Sexting Scandal - Strong Denial and Counterattack
 
@@ -36,7 +28,16 @@ Sincerely,
 
 Thomas Shanley
 FIAB Management</p>
-    </div>
+        <Nav />
+        <Showcase/>
+        <Players/>
+        <News/>
+        <Fixture/>
+        <Ladder/>
+        <Contact/>
+    </div> 
+    
+    
     
   )
 }
