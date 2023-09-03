@@ -4,6 +4,7 @@
     color: var(--color-bg);
 
 }
+.class5 { padding: 1em; }
 
 .player-profiles {
     display: flex;
