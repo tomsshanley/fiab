@@ -22,7 +22,7 @@ const Players = () => {
 
     <p>I must address the outrageous allegations circulating about our squash organization's manager. Let me be crystal clear: these accusations are utterly false and nothing more than a malicious smear campaign orchestrated by DMG, our rival squash management company.</p>
 
-    <p>Our manager, who has consistently displayed professionalism and integrity throughout their tenure, is the target of baseless slander. It is disheartening to witness DMG resorting to such deceitful tactics in a desperate attempt to tarnish our reputation.</p>
+    <p>Our manager, who has consistently displayed professionalism and integrity throughout their tenure, and is a devout Christian who doesn't drink alcohol, is the target of baseless slander. It is disheartening to witness DMG resorting to such deceitful tactics in a desperate attempt to tarnish our reputation.</p>
 
     <p>DMG's reckless spread of fake news is a blatant attempt to undermine our credibility and manipulate public perception. We challenge DMG to present any credible evidence to substantiate their claims, knowing full well that they won't be able to provide any.</p>
 
