@@ -16,7 +16,7 @@ const Players = () => {
 
 
 
-    <h1>Subject: Re: Accusations of Sexting Scandal - Strong Denial and Counterattack</h1>
+    <h2>Subject: Re: Accusations of Sexting Scandal - Strong Denial and Counterattack</h2>
 
     <p>To whom it may concern,</p>
 
