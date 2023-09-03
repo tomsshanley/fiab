@@ -32,7 +32,7 @@ const Players = () => {
 
     <p>Sincerely,</p>
 
-    <p>Thomas Shanley<br>
+    <p>Thomas Shanley<br/>
         FIAB Management</p>
       <h1 id='players-title'>PLAYERS</h1>
       <div className='player-profiles'>
