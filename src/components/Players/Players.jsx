@@ -12,7 +12,7 @@ const Players = () => {
     
 
 
-    <h1>Response to Accusations</h1>
+    <h1 class="class5">Response to Accusations</h1>
 
 
 
