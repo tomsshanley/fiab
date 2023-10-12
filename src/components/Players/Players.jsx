@@ -12,28 +12,7 @@ const Players = () => {
     
 
 
-    <h1 class="class5">Response to Accusations</h1>
-
-
-
-    <h2>Subject: Re: Accusations of Sexting Scandal - Strong Denial and Counterattack</h2>
-
-    <p>To whom it may concern,</p>
-
-    <p>I must address the outrageous allegations circulating about our squash organization's manager. Let me be crystal clear: these accusations are utterly false and nothing more than a malicious smear campaign orchestrated by DMG, our rival squash management company.</p>
-
-    <p>Our manager, who has consistently displayed professionalism and integrity throughout their tenure, and is a devout Christian who doesn't drink alcohol, is the target of baseless slander. It is disheartening to witness DMG resorting to such deceitful tactics in a desperate attempt to tarnish our reputation.</p>
-
-    <p>DMG's reckless spread of fake news is a blatant attempt to undermine our credibility and manipulate public perception. We challenge DMG to present any credible evidence to substantiate their claims, knowing full well that they won't be able to provide any.</p>
-
-    <p>We have no choice but to view DMG's actions as a deliberate and malicious attempt to damage our organization's standing. We will not stand idly by while our reputation is dragged through the mud. We are prepared to take all necessary legal actions to defend our manager's honor and hold DMG accountable for their defamatory statements.</p>
-
-    <p>In the interest of fairness and justice, we demand an immediate retraction of these false allegations from DMG, along with a public apology for the harm caused to our organization. We are more than willing to engage in any legal proceedings to ensure that the truth prevails.</p>
-
-    <p>Sincerely,</p>
-
-    <p>Thomas Shanley<br/>
-        FIAB Management</p>
+    
       <h1 id='players-title'>PLAYERS</h1>
       <div className='player-profiles'>
       <div id="profile1">
